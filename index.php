@@ -1,3 +1,9 @@
+
+<?php
+if (isset($_GET['status']) && $_GET['status'] == 'sucesso') {
+    echo "<script>alert('Aluno cadastrado com sucesso!');</script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
